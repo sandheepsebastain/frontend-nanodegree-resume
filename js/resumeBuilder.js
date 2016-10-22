@@ -1,3 +1,4 @@
-/*
-This is empty on purpose! Your code to build the resume will go here.
- */
+var formattedName=HTMLheaderName.replace('%data%','Sandheep Sebastian');
+var formattedRole=HTMLheaderRole.replace('%data%','Data Analyst');
+$("#header").prepend(formattedRole);
+$("#header").prepend(formattedName);
